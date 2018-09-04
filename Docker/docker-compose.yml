@@ -18,7 +18,7 @@ services:
           - mongodb
 
     swift:
-        image: bouncestorage/swift-aio:latest@sha256:089cad2692dd711e52d43c724ac7bd2b5fff4e9566416cdc7cb11412606a49a3
+        image: bouncestorage/swift-aio:latest@sha256:112ee841759f8b86ceb423800898b36eb7fd556e1959aad2b56da4fe5dd6aafc
         ports:
           - 8080:8080
 
